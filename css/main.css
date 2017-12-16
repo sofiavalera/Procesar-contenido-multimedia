@@ -1,0 +1,224 @@
+/*---AUDIO---*/
+#botones{
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.boton1{
+    width: 15%;
+}
+.boton2{
+    width: 15%;
+}
+
+/*---LOGO---*/
+.logo img{
+    
+    width: 30%;
+    height: 30%;
+    margin-bottom: -3.5%;
+    margin-left: -2.4%;
+}
+
+.logo h1{
+    
+    font-size: 4em;
+    font-weight:normal; 
+}
+
+/*----BUSQUEDA---*/
+.search{
+
+    margin-left: 5em;
+}
+
+input.lupa{
+    width: 17px;
+    height: 17px;
+    background-image: url('../Img/lupa.png');
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input#buscar{
+    border: solid 1px black;
+    border-radius: 5px;
+    
+}
+/*----MENU----*/
+.menu{   
+    
+    display: block;
+}
+
+.menu a{
+
+    width: 15em;
+    text-align: center;
+    color:white;
+    background-color: black;
+    float: right;
+    font-family:inherit;
+    text-decoration: none;
+    /*margin-right: -2.5em;*/
+    margin-bottom: 0em;
+    font-size: 1.2em;
+    border: 1px solid;
+    margin-right: -3.2em;
+}
+
+.menu li{
+    float:left;
+}
+
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu li a:hover {
+    
+    /*opacity: 0.5; */
+    cursor: pointer; 
+}
+
+/*------VIDEO------*/
+video{
+    width: 99.9%;
+    height: 100%; 
+}
+
+/*--GALERIA FOTOS--*/
+#productosFotos{
+    
+    margin-top: 1em;
+    width: 600%;
+    margin-left: -29.1em;
+    display: flex;
+    
+}
+
+#productosFotos a img{
+    
+    width: 100%;  
+    height: 100%;
+    border:1px solid black;
+    border-radius: 2%;
+    margin-left: 16%;
+}
+
+
+.productos img{
+    
+    width: 100%;
+    height: 100%;  
+}
+
+
+/*----ICONOS-REDES-SOCIALES-----*/
+
+.icon{
+    
+   list-style: none;
+    display: flex;
+    margin-bottom: 0%;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+.icon a img{
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    width:100%;
+}
+
+.icon:hover a img{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+.icon{   /*Ancho y altura*/
+    width:200px;
+    height:70px;
+}
+
+/*-----AVISOS LEGALES-----*/
+
+.avisosLegales ul li{
+    
+    color:white;
+}
+
+.avisos{
+    
+    padding: 0;
+    margin-top: 2em;
+    display: flex;
+    margin-bottom: 26em;
+    margin-left: 15em;
+}
+
+.avisos a{
+    
+    display:block;
+    float:left;
+    
+}
+
+.avisos a{
+    
+    color:grey;
+    text-align: center;
+    font-family:inherit;
+    text-decoration: none;
+    
+}
+
+
+/*--BANNER--*/
+iframe{
+    width: 800px;
+    height: 300px;
+    margin-top: -800%;
+    margin-left: -8%;
+}
+
+/*----FONDO-NEGRO----*/
+
+#fondoImagen{
+    
+    background-color: black;
+    width: 100%; 
+    height: 100%;
+}
+
+
+/*----FONDO-NEGRO----*/
+
+#fondoImagen2{
+    
+    background-color: black;
+    width: 100%; 
+    height: 100%;
+}
+
+.videoFondo{
+    width: 102.2%;
+    background-color: black
+}
+/*---FONDO-NEGRO---*/
+
+.fondo{
+    
+    background-color: black;
+    width: 100%; 
+    height: 100%;
+}
+/*---SEQUIA-IMAGEN---*/
+.fondoSequia img{
+    
+    width: 100%;
+    margin-top: -10%;
+}

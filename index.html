@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>La sequia</title>
+        <meta name="description" content="Maquillaje">
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/text.css"/>
+        <link rel="stylesheet" href="css/960_12_col.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <!--Contenedor global de 12 columnas-->
+        <div class="container_12">
+        <header>      
+            <div class="fondo">
+            <!--Audio--> 
+            <div class="grid_4 suffix_8">
+                <audio id="reproductor" src="Audio/CreativeCommonsSong.mp3" loop autoplay></audio>
+                <div id="botones">
+                    <img src="Img/Iconos/play2.png" alt="play" class="boton1" onclick="document.getElementById('reproductor').play()">
+                    <img src="Img/Iconos/Stop.png" alt="stop" class="boton2" onclick="document.getElementById('reproductor').pause()">
+                </div>
+            </div>
+            <!--Logo-->
+            <div class="grid_7 prefix_1">
+                <div class="logo">
+                    <img src="Img/Iconos/hands.png" alt="manos tierra">
+                </div>    
+            </div>
+            <!--Search-->
+            <div class="grid_4">
+                <div class="search">
+                    <form action="#">
+                    <p>
+                       <input placeholder="Buscar" type="text" name="buscar" id="buscar" />
+                       <input type="submit" class="lupa" value="." title="buscar" />    
+                    </p>
+                    </form>
+                </div>
+            </div>
+            <div class="clear"></div>    
+            </div>    
+        </header>
+        <nav> 
+            <div class="fondo">
+            <div class="grid_12">
+                <!--menu-->
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HISTORIA</a></li>
+                        <li><a href="#">VOLUNTARIOS</a></li>    
+                        <li><a href="#">ASOCIACIÓN</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+            </div>
+        </nav>  
+        <section>
+            <div class="alpha grid_12">
+                <!--VideoPrincipalDeLaPagina-->
+                <div class="videoFondo">
+                    <video controls poster="img/portada.jpg" autoplay>
+                        <source src="Video/TemperaturaYprecipitacionSigloXXI.mp4" type="video/mp4">
+                        <source src="Video/TemperaturaYprecipitacionSigloXXI.ogg" type="video/ogg">
+                    </video>
+                </div>    
+            </div>
+            <div class="clear"></div>
+            <div class="fondo">
+                <!--Imagenes retocadas-->
+                <div class="grid_4 prefix_4 suffix_4">
+                          <div id="productosFotos">
+                            <div class="grid_4">
+                                     <a href="#" target="_blank"><img src="Img/Desierto.jpg" alt="desierto"></a>  
+                            </div>
+                            <div class="grid_4">
+                                     <a href="#" target="_blank"><img src="Img/Sequia1.jpg" alt="sequia1"></a>
+                            </div> 
+                            <div class="grid_4 omega">
+                                     <a href="#" target="_blank"><img src="Img/Sequia2.jpg" alt="sequia2"></a>
+                            </div>    
+                        </div>     
+                </div>
+            <div class="clear"></div>
+            </div>      
+        </section>
+        <footer>
+        <div id="fondoImagen">
+            <!--IconosRedesSociales-->
+                <div class="grid_4 prefix_4 suffix_4">  
+                    <div class="iconosRedes">
+                        <ul class="icon">
+                            <li>
+                                <a href="#" target="_blank"><img src="Img/Iconos/facebook.png" alt="facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank"><img src="img/Iconos/instagram.png" alt="instagram"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank"><img src="Img/Iconos/whatsapp.png" alt="whatsapp"></a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--AvisosLegales-->
+            <div id="fondoImagen2">
+            <div class="grid_8 prefix_2 suffix_2">
+                <!--Enlaces a los avisos legales-->
+                <div class="avisos">
+                    <a href="#">Legal |&nbsp;</a>        
+                    <a href="">Acerca de |&nbsp;</a>
+                    <a href="#">&nbsp;&copy;Sequia@gmail.com</a>
+                </div>
+            </div>
+            <div class="clear"></div> 
+            <!--Banner-->    
+            <div class="grid_8 prefix_2 suffix_2">    
+                <div class="banner">
+                    <iframe src="Banner_Sequia/Banner_S/gwd_preview_Banner_S/index.html"></iframe>
+                </div>
+            </div>
+            <div class="clear"></div>     
+            </div>
+            <div class="fondoSequia">
+                <img src="Img/fondoSequia.jpg" alt="sequia">
+            </div>
+        </footer>
+        </div>    
+    </body>
+</html>
